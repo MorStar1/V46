@@ -1,0 +1,13 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        get:
+          uri: https://github.com/MorStar1/V46.git
+          search-path: /demo-config-server/src/main/resources/
+          username: 2545677551@qq.com
+          password: LRXsuancaiyu187
